@@ -1,4 +1,6 @@
 tasks:
+  - init: |
+      echo "Prebuild"
   - command: |
       ./test.sh
 
