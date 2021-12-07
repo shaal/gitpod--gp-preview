@@ -5,6 +5,8 @@ set -x
 npx -y cowsay "Preview browser should open by itself, without clicking inside VScode's Terminal panel"
 sleep 10
 echo "sleeping for 10 seconds"
+sleep 30
+echo "sleeping for 30 seconds"
 npx -y serve &
 gp await-port 3000
 sleep 1
