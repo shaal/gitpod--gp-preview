@@ -2,7 +2,7 @@ image: drupalpod/drupalpod-gitpod-base:20211116-ready-made-envs
 
 tasks:
   - init: |
-      echo "Prebuild"
+      ddev debug download-images
   - command: |
       ./test.sh
 
